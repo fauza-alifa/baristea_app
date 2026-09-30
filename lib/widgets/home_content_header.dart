@@ -40,7 +40,7 @@ class HomeContentHeader extends StatelessWidget {
             onSelected: onCategorySelected,
           ),
           SizedBox(height: 22),
-          Text('Recommended for You', style: AppTheme.display(fontSize: 20)),
+          Text('Recommended', style: AppTheme.display(fontSize: 20)),
           SizedBox(height: 14),
         ],
       ),
