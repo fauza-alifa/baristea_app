@@ -60,9 +60,9 @@ class _DetailScreenState extends State<DetailScreen> {
       SnackBar(
         content: Text(
           '$_quantity x ${tea.name}\n'
-          '$iceText - $sugarText',
+          '$iceText - $sugarText\n'
+          'Added to Cart',
         ),
-        behavior: SnackBarBehavior.floating,
       ),
     );
   }
